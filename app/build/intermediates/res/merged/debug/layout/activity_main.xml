@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    -
+    -
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/logo_mainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ihomeo_logo" />
+    </LinearLayout>
+    -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        -
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            -
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/version"
+                    style="@style/CustomTextview"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="68dp"
+                    android:layout_marginRight="68dp"
+                    android:text="V1.0"
+                    android:textColor="#000000"
+                    android:textSize="10dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        -
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        -
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        -
+
+        <EditText
+            android:id="@+id/user_id_edt_activitymain"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/password_edt_activitymain"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_toEndOf="@+id/password_txv_activitymain"
+            android:layout_toRightOf="@+id/password_txv_activitymain"
+            android:hint="EMAIL ID"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_edt_activitymain"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/login_btn_activitymain"
+            android:layout_alignEnd="@+id/user_id_edt_activitymain"
+            android:layout_alignRight="@+id/user_id_edt_activitymain"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_toRightOf="@+id/password_txv_activitymain"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/saveLoginCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/login_btn_activitymain"
+            android:layout_alignLeft="@+id/user_id_txv_activitymain"
+            android:layout_alignStart="@+id/user_id_txv_activitymain"
+            android:layout_marginLeft="60dp"
+            android:text="Remember me" />
+        -
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            -
+            -
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                -
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/login_btn_activitymain"
+                        style="@style/CustomDownButtons"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:color="@color/bluedark1"
+                        android:text="@string/login" />
+
+                    <Button
+                        android:id="@+id/Register"
+                        style="@style/CustomDownButtons1"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:color="#f6c310"
+                        android:text="REGISTER NOW" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    -
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        -
+        -
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/ihomeo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="www.ihomeo.com"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

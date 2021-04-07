@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="micro_background">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="skyblue">#198cff</color>
+    <color name="white">#ffffff</color>
+    <color name="Slategrey">#444444</color>
+    <color name="cement">#505255</color>
+    <color name="orange">#FD6721</color>
+    <color name="bluedark">#4169e1</color>
+    <color name="bluedark1">#00b1b7</color>
+    <color name="blueheavydark">#120A8F</color>
+        <color name="blue_default">#13b8a3</color>
+    <color name="blue_default_dark">#0f9483</color>
+    <color name="bluelight">#676CFB</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="graywhite">#eae9e8</color>
+    <color name="hologray">#D9D9D8</color>
+    <color name="bluethick">#2D3ABA</color>
+    <color name="blacklight">#0A0D2A</color>
+    <color name="navyblue">#8F68E9</color>
+    <color name="magentablue">#0773fa</color>
+    <color name="thickgray">#999999</color>
+    <color name="gray_brown">#7a7a7a</color>
+    <color name="gray">#8c8e8c</color>
+    <color name="gray_verylight">#F2F2F2</color>
+    <color name="lightgray">#dddddd</color>
+    <color name="grayfaded">#E0E0E0</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

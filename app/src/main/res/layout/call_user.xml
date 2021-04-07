@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- layout title -->
+
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/call_title"
+            style="@style/DialogSubHeader_Text"
+            android:text="Call" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_appointment_arrived_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/message_txv_appointment_arrived_dialog"
+            style="@style/CustomTextview"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:text="Do  you  want to  call  this  Number?" />
+
+        <TextView
+            android:id="@+id/patname"
+            style="@style/CustomTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="xxx" />
+
+        <TextView
+            android:id="@+id/phonenumber"
+            style="@style/CustomTextview"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:text="xxx"
+
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/cancel_btn_appointment_arrived_dialog"
+            style="@style/DialogDownButtons_2"
+            android:layout_toLeftOf="@+id/view_divider"
+            android:text="@string/cancel" />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btncall"
+            style="@style/DialogDownButtons"
+            android:layout_toRightOf="@+id/view_divider"
+            android:text="Call" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_marginTop="35dp"
+             android:layout_gravity="center_vertical"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/ihomeo_logo">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="30dp"
+
+                />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#59cdbe"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+
+
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:background="#24a595"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/profile" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/user_id_edt_activitymain"
+                        android:drawablePadding="10dp"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:hint="User name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="35dp"
+                android:paddingRight="35dp"
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+
+
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:background="#24a595"
+                    android:clickable="true">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/password" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/password_edt_activitymain"
+                        android:drawablePadding="10dp"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:hint="Password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+
+
+                <CheckBox
+                    android:id="@+id/saveLoginCheckBox"
+                    android:textColor="#ffffff"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/login_btn_activitymain"
+                    android:layout_alignLeft="@+id/user_id_txv_activitymain"
+                    android:layout_alignStart="@+id/user_id_txv_activitymain"
+                    android:layout_marginLeft="35dp"
+                    android:text="Remember me" />
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <Button
+                    android:textStyle="italic"
+                    android:id="@+id/login_btn_activitymain"
+                    android:textSize="20sp"
+
+                    style="@style/CustomDownButtons1"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:color="#f6c310"
+                    android:text="Login" />
+
+
+                <TextView
+                    android:textStyle="italic"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not on iHomeo yet?"/>
+
+
+                <Button
+                    android:textStyle="italic"
+                    android:id="@+id/Register"
+                    android:textSize="20sp"
+                    android:layout_marginTop="7dp"
+
+                    style="@style/CustomDownButtons"
+                    android:layout_width="290dp"
+
+                    android:layout_height="wrap_content"
+                    android:color="@color/bluedark1"
+                    android:text="Join iHomeo!" />
+
+
+
+            </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                -
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+
+                    <LinearLayout
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ihomeo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="center"
+                            android:text="www.ihomeo.com"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

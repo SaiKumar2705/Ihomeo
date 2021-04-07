@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\Sai kumar\\.android\\build-cache\\2ac31ecbe00fc6f42175a17d2044420b3b104273\\output\\res\\values-w360dp-v13\\values-w360dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 54,
+                        "endOffset": 105
+                    }
+                }
+            }
+        ]
+    }
+]

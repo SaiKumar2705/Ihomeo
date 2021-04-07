@@ -1,0 +1,413 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- My own creation of theme for actionbar,overflow_menu -->
+    <style name="MyAppActionBarTheme" parent="android:Theme.Holo.Light">
+        <item name="android:popupMenuStyle">@style/MyApp.PopupMenu</item>
+        <item name="android:actionBarStyle">@style/MyApp.ActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/PopupMenuTextView</item>
+    </style>
+
+    <!-- The beef: background color for Action Bar overflow menu -->
+    <style name="MyApp.PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/gray_verylight</item>
+    </style>
+
+    <!-- Bonus: if you want to style whole Action Bar, not just the menu -->
+    <style name="MyApp.ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid">
+        <!-- Blue background color & black bottom border -->
+        <item name="android:background">@color/white</item>
+        <!--  <item name="android:shadowColor">@color/orange</item> -->
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <!--     change text size for action bar title -->
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+        <!--   <item name="android:textColor">@color/color_title</item> -->
+        <item name="android:textSize">@dimen/actionbar_title_textview</item>
+    </style>
+
+    <!-- Change Overflow Menu ListView Text Size and Text Size -->
+    <style name="PopupMenuTextView" parent="@style/android:Theme.Holo.Light">
+        <item name="android:textColor">@color/blacklight</item>
+        <item name="android:textSize">@dimen/overflow_menu_text</item>
+    </style>
+
+    <!-- Edittext style -->
+    <style name="CustomEdittext" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+    </style>
+
+    <!-- Textview style -->
+    <style name="CustomTextview" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+    </style>
+    <!-- down button style -->
+
+    <style name="CustomDownButtons1" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/Slategrey</item>
+        <item name="android:layout_width">@dimen/down_button_width</item>
+        <item name="android:layout_height">@dimen/down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/roundcorners1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CustomDownButtons_1" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/down_button_width</item>
+        <item name="android:layout_height">@dimen/down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/roundcornors</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CustomDownButtons" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/down_button_width</item>
+        <item name="android:layout_height">@dimen/down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/roundcornors</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- listview headers textview -->
+    <style name="Listview_Headers_Textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/listview_headers_textview</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- listview normal row text -->
+    <style name="Listview_normal_row_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/listview_normal_row_textview_padding</item>
+        <item name="android:textColor">@color/blacklight</item>
+        <item name="android:textSize">@dimen/listview_normal_row_textview</item>
+    </style>
+    <!-- listview row text  -->
+    <style name="Listview_Row_Text">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">@dimen/listview_row_left_padding</item>
+        <item name="android:paddingRight">@dimen/listview_row_right_padding</item>
+        <item name="android:paddingBottom">@dimen/listview_row_bottom_padding</item>
+        <item name="android:paddingTop">@dimen/listview_row_top_padding</item>
+    </style>
+    <!-- listview Appointments_booked text(mr_number timeslot and amount  -->
+    <style name="Listview_Row_Appointments_booked_Text">
+        <item name="android:textColor">@color/bluedark1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">@dimen/listview_row_left_padding</item>
+        <item name="android:paddingRight">@dimen/listview_row_right_padding</item>
+        <item name="android:paddingBottom">@dimen/listview_row_bottom_padding</item>
+        <item name="android:paddingTop">@dimen/listview_row_top_padding</item>
+    </style>
+    <!-- listview row appointments name text  -->
+    <style name="Listview_Row_Appointments_Name_Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/listview_row_left_padding</item>
+        <item name="android:paddingRight">@dimen/listview_row_right_padding</item>
+        <item name="android:paddingBottom">@dimen/listview_row_bottom_padding</item>
+        <item name="android:paddingTop">@dimen/listview_row_top_padding</item>
+    </style>
+    <!-- listview Book row text  -->
+    <style name="Listview_Book_Row_Text">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/appointments_bookrow_roundcornors_background
+        </item>
+        <item name="android:layout_width">@dimen/book_txv_layout_width</item>
+        <item name="android:layout_height">@dimen/book_txv_layout_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">@dimen/listview_row_left_padding</item>
+        <item name="android:paddingRight">@dimen/listview_row_right_padding</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+    <!-- listview Not Book row text  -->
+    <style name="Listview_Not_Book_Row_Text">
+        <item name="android:textColor">@color/bluedark1</item>
+        <item name="android:background">
+            @drawable/appointments_notbookrow_roundcornors_white_background
+        </item>
+        <item name="android:layout_width">@dimen/book_txv_layout_width</item>
+        <item name="android:layout_height">@dimen/book_txv_layout_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">@dimen/listview_row_left_padding</item>
+        <item name="android:paddingRight">@dimen/listview_row_right_padding</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <!-- Top mainheader textviews -->
+    <style name="TopMainHeader" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#555555</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_top_main_headers_textview</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- previous next arrows Imageview (used for date changing) -->
+    <style name="previous_next_arrows">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- date Textview header (used for date displaying) -->
+    <style name="DateHeader_text" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#555555</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_date_headers_textview</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- subMainHeader textviews -->
+    <style name="SubMainHeader" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_sub_main_headers_textview</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">1dp</item>
+    </style>
+
+    <!-- dialog mainheader textviews -->
+    <style name="DialogMainHeader_Text">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dialog_main_headers_textview</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/dialog_main_headers_textview_padding</item>
+    </style>
+    <!-- dialog subheader textviews -->
+    <style name="DialogSubHeader_Text">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/dialog_sub_headers_textview</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dialog_sub_headers_textview_padding</item>
+    </style>
+    <!-- dialog views -->
+    <style name="DialogView">
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <!-- dialog edittext -->
+    <style name="DialogEdittext">
+        <item name="android:background">@drawable/boxborder_gray_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- dialog consultation_txv in paymentDialog textviews -->
+    <style name="DialogConsultation_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">3dp</item>
+
+    </style>
+    <!-- DialogDownButtons -->
+
+
+    <style name="DialogDownButtons_1" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_patientname_roundcornors_background1
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="DialogDownButtons_3" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/newapp_btn
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="DialogDownButtons_4" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_patientname_roundcornors_background1
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DialogDownButtons_5" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_patientname_roundcornors_background1
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    <style name="DialogDownButtons" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_patientname_roundcornors_background
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="DialogDownButtons_2" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_bookrow_roundcornors_background_newappointments
+
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+    //sai
+
+    <style name="MyAppActionBarTheme1" parent="android:Theme.Holo.Light">
+
+        <item name="android:popupMenuStyle">@style/MyApp.PopupMenu1</item>
+        <item name="android:actionBarStyle">@style/MyApp.ActionBar1</item>
+        <item name="android:actionBarWidgetTheme">@style/PopupMenuTextView</item>
+    </style>
+
+    <!-- The beef: background color for Action Bar overflow menu -->
+    <style name="MyApp.PopupMenu1" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/gray_verylight</item>
+    </style>
+
+
+    <style name="MyApp.ActionBar1" parent="android:Widget.Holo.Light.ActionBar.Solid">
+        <!-- Blue background color & black bottom border -->
+        <item name="android:background">@drawable/custom_background_bar</item>
+
+        <item name="android:backgroundStacked">#59cdbe</item>
+        <item name="android:backgroundSplit">#59cdbe</item>
+        <item name="android:layout_marginBottom">0dp</item>
+
+
+        <!--  <item name="android:shadowColor">@color/orange</item> -->
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+
+
+    <style name="DialogDownButtons1" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_bookrow_roundcornors_background1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="DialogDownButtons2" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/dialog_down_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/appointments_bookrow_roundcornors_background2
+        </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="CustomDownButtons2" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/down_button_width</item>
+        <item name="android:layout_height">@dimen/down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/roundcornors</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CustomDownButtons3" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/down_button_width</item>
+        <item name="android:layout_height">@dimen/down_button_height</item>
+        <item name="android:textSize">@dimen/all_medium_text</item>
+        <item name="android:background">@drawable/roundcorners3</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

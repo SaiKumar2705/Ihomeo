@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+
+        <Spinner
+            android:id="@+id/spinner_Dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Get_Btn_Dashboard"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="2dp"
+            android:layout_toLeftOf="@+id/Get_Btn_Dashboard"></Spinner>
+
+        <Button
+
+            android:id="@+id/Get_Btn_Dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:text="Get"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_default">
+
+            <TextView
+                android:id="@+id/period_Dashboard"
+                style="@style/Listview_Headers_Textview"
+                android:layout_alignParentLeft="true"
+                android:text="@string/period" />
+
+            <TextView
+                android:id="@+id/no_of_bills_header_Dashboard"
+                style="@style/Listview_Headers_Textview"
+                android:layout_centerHorizontal="true"
+                android:text="@string/no_of_bills" />
+
+            <TextView
+                android:id="@+id/amount_header_Dashboard"
+                style="@style/Listview_Headers_Textview"
+                android:layout_alignParentRight="true"
+                android:text="@string/amount" />
+        </RelativeLayout>
+        <!--   today -->
+        <TextView
+            android:id="@+id/today_Dashboard"
+            style="@style/DialogSubHeader_Text"
+            android:layout_width="match_parent"
+            android:background="@color/grayfaded"
+            android:gravity="left"
+            android:text="@string/today" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/today_op_header_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentLeft="true"
+                android:text="@string/opd" />
+
+            <TextView
+                android:id="@+id/today_opd_no_of_bills_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_centerHorizontal="true"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/today_opd_amount_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentRight="true"
+                android:text="10.00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/today_pharmacy_header_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentLeft="true"
+                android:text="@string/pharmacy" />
+
+            <TextView
+                android:id="@+id/today_pharmacy_no_of_bills_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_centerHorizontal="true"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/today_pharmacy_amount_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentRight="true"
+                android:text="10.00" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/today_sum_amount_Dashboard"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/today_pharmacy_amount_Dashboard"
+                android:layout_marginTop="5dp"
+
+                android:background="@color/thickgray" />
+
+            <TextView
+                android:id="@+id/today_sum_amount_Dashboard"
+                style="@style/DialogSubHeader_Text"
+
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/today_pharmacy_amount_Dashboard"
+                android:layout_marginTop="8dp"
+                android:text="0.00" />
+        </RelativeLayout>
+        <!--   month -->
+        <TextView
+            android:id="@+id/month_Dashboard"
+            style="@style/DialogSubHeader_Text"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/grayfaded"
+            android:gravity="left"
+            android:text="@string/month" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/month_opd_header_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentLeft="true"
+                android:text="@string/opd" />
+
+            <TextView
+                android:id="@+id/month_opd_no_of_bills_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_centerHorizontal="true"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/month_opd_amount_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentRight="true"
+                android:text="10.00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/month_pharmacy_header_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentLeft="true"
+                android:text="@string/pharmacy" />
+
+            <TextView
+                android:id="@+id/month_pharmacy_no_of_bills_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_centerHorizontal="true"
+                android:text="12" />
+
+            <TextView
+                android:id="@+id/month_pharmacy_amount_Dashboard"
+                style="@style/CustomTextview"
+                android:layout_alignParentRight="true"
+                android:text="0.00" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/month_sum_amount_Dashboard"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/month_pharmacy_amount_Dashboard"
+                android:layout_marginTop="5dp"
+
+                android:background="@color/thickgray" />
+
+            <TextView
+                android:id="@+id/month_sum_amount_Dashboard"
+                style="@style/DialogSubHeader_Text"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/month_pharmacy_amount_Dashboard"
+                android:layout_marginTop="8dp"
+                android:text="0.00" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <RelativeLayout
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/goback"
+                style="@style/CustomDownButtons"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/close" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

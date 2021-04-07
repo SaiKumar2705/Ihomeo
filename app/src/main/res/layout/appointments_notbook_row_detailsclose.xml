@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/time_appointment_notbook_row"
+        style="@style/Listview_Row_Text"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="12234" />
+
+    <TextView
+        android:id="@+id/patient_name_appointment_notbook_row"
+        style="@style/Listview_Row_Appointments_Name_Text"
+        android:layout_width="0dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Bhuvana" />
+
+    <TextView
+        android:id="@+id/book_appointment_notbook_row"
+        style="@style/Listview_Book_Row_Text"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/time_appointment_notbook_row"
+        android:layout_marginLeft="8dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="click"
+        android:text="@string/book" />
+
+    <TextView
+        android:id="@+id/arrived_appointment_notbook_row"
+        style="@style/Listview_Not_Book_Row_Text"
+        android:layout_below="@id/time_appointment_notbook_row"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/arrived" />
+
+
+    <TextView
+        android:id="@+id/Mobile_sai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:text="22222222" />
+
+    <TextView
+        android:id="@+id/pay_dummy_appointment_notbook_row"
+        style="@style/Listview_Book_Row_Text"
+        android:layout_width="0dp"
+        android:text="Details" />
+
+    <TextView
+        android:id="@+id/dummy_notbook_row"
+        style="@style/Listview_Row_Text"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/time_appointment_notbook_row"
+
+        android:gravity="center"
+
+        android:paddingTop="0dp" />
+
+    <TextView
+        android:id="@+id/pay_appointment_notbook_row"
+        style="@style/Listview_Not_Book_Row_Text"
+        android:layout_alignBottom="@+id/dummy_notbook_row"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="@string/pay" />
+
+
+</RelativeLayout>

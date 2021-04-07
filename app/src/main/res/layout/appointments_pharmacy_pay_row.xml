@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+	      android:id="@+id/time_pharmacy_pay_row"
+	      android:layout_alignParentLeft="true"      
+	      android:layout_gravity="left"
+	      android:text="12234"
+	      android:gravity="left"
+	      style="@style/Listview_Row_Text"
+	        />
+
+
+	<TextView
+		android:visibility="gone"
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="20dp"
+		android:id="@+id/Mobile_sai"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="22222222"/>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true">
+
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+	<TextView
+        android:id="@+id/patient_name_pharmacy_pay_row"
+        android:layout_alignParentRight="true"
+        android:gravity="center"     
+        android:text="Bhuvana"
+        style="@style/Listview_Row_Appointments_Name_Text" />
+
+		<ImageView
+
+			android:id="@+id/call"
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:layout_marginTop="5dp"
+			android:background="@drawable/call" />
+
+
+
+	</LinearLayout>
+
+		</RelativeLayout>
+
+
+	</RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/mr_number_pharmacy_pay_row"   
+            android:layout_below="@id/time_pharmacy_pay_row"        
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="MR1235"
+            android:paddingTop="0dp"
+            style="@style/Listview_Row_Appointments_booked_Text" />
+         <TextView
+            android:id="@+id/arrivedtime_pharmacy_pay_row"
+            style="@style/Listview_Row_Appointments_booked_Text"
+            android:layout_below="@id/time_pharmacy_pay_row"                
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="12:20 PM"
+            android:paddingTop="0dp" />
+         <TextView
+            android:id="@+id/pay_pharmacy_pay_row"
+            style="@style/Listview_Book_Row_Text"           
+            android:layout_below="@id/time_pharmacy_pay_row"
+            android:onClick="click"
+            android:clickable="true"          
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="Amt" />
+        
+         <TextView
+            android:id="@+id/pay_dummy_pharmacy_pay_row"
+            style="@style/Listview_Book_Row_Text"           
+            android:layout_width="0dp"
+            android:text="@string/pay" />
+
+</RelativeLayout>

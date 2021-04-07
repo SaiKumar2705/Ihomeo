@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_loginmenu"
+        android:icon="@drawable/homemenu"
+        android:showAsAction="always"
+        android:title="@string/home"
+
+        >
+        <menu>
+
+            <item
+                android:id="@+id/power_doctorsname_list_menu"
+                android:showAsAction="always"
+                android:title="Revenue By Category" ></item>
+
+
+
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1045559570417",
+    "firebase_url": "https://ihomeo-e522b.firebaseio.com",
+    "project_id": "ihomeo-e522b",
+    "storage_bucket": "ihomeo-e522b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045559570417:android:ade3e544032dadba",
+        "android_client_info": {
+          "package_name": "com.ihomeo.ihomeouploading.ihomeoactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045559570417-blpobbucft831hctm7dvr5kqfrpr5oa3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0dkzJAX2OMm4TMQKIdOCwt8g7sMT4R0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

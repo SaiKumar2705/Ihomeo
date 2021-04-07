@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+  >
+
+     <TextView
+         android:id="@+id/consult_type_txv_doc_consultation_amt_dialog_row"
+         style="@style/Listview_normal_row_textview"
+         android:layout_alignParentLeft="true"
+         android:layout_gravity="left"
+         android:layout_toLeftOf="@+id/consult_amt_txv_doc_consultation_amt_dialog_row"
+         android:background="@drawable/listview_row_selector"
+         android:gravity="left"
+         android:text="12234" />
+
+          <TextView
+        android:id="@+id/consult_amt_txv_doc_consultation_amt_dialog_row"
+         style="@style/Listview_normal_row_textview"
+        
+       android:layout_alignParentRight="true"      
+        android:layout_gravity="left"
+      android:text="12234"
+      android:gravity="left"
+      android:background="@drawable/listview_row_selector"
+        />   
+    
+
+</RelativeLayout>

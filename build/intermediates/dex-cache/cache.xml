@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\17fb29b31fa3ff55e8a29f5413c16508ba48198a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_255644144b638071c3b10737ab3f71e0ff45a361.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\2ac31ecbe00fc6f42175a17d2044420b3b104273\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_bf4ad526e33c765ee7138c64cfa5b5c0290ed6eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\23b9a39010db0e1ccefbbcec0e55abd8871ed321\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_74042b24a63ed19cedcf8aa777acac210c91ad86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_d455ca3b869d2a97ae0f9645719c123b4ab32a5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_365e552eee48ea01584c51822cda7e758c951068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\2ca4b3b6f8d5c8f66f0f992eda870d435c124812\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_947b821f48e84bc9ac2517b1965db15f147428a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\bd3295da0b2f23a6000291086d01762905d42fd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_63d85537a907e71de1fcecdce3c91eed4d93e632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\7216815d6749d352edb4934521830b12a357f640\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_ac9b39fcb956067a2d0fbb47effc84001ff2e5f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\68a8613c22d6f9eaa4a60d917602f41ffe116846\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_11a488bed12e8a00af98b9d190cf55a914c63392.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_dfc7242b6802344f8ab0a1ad2a014c360fc9a3c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_65c0cfd0267cdd9edaef711c153e82b81de0e27c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_918773380045588a443619548f14805ad51b03ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.2.2\52bb5e2c528180a3d670d5f9daeb2018f1a7c899\MPAndroidChart-v2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="52bb5e2c528180a3d670d5f9daeb2018f1a7c899">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\MPAndroidChart-v2.2.2_0cd63bf05aebfa8281cce98b382fb5aa3a3a81aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\0c11c4bfd5d564897c982f0d497095977be0b2c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_ab0b1c8e433d9efa91b61d90fcb9c22a8aa29c70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef141c106b87541eb23ae56bad6c68b369e78a73">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_b884cf7b7e8848d539d45efb7203a516c5947c7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\fd0977be3d896fdf2d505ac96fc038da95e322df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee19e33a798d11a5cf309a40155b8223fadcdeea">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_52ebf98a53485842d0272320079855b647f7a43e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\ddf9d590e20aa8e5c03c43c7427740f51aae7446\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b8ba0b9f0aa49a9180676e72ad6767473b15f74a">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_8eccb3fc7f2cdcde0adeae7995e4fc225422f864.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_0115cefe389af0a70cf18ea5b0f8822151304858.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\classes_0cafd7588c691a76f216276b78ea073ad6abcb60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sai kumar\.android\build-cache\17fb29b31fa3ff55e8a29f5413c16508ba48198a\output\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_6d67c132f4f4bf7c228c953ee7a3a8233d31c7c6.jar" />
+    </item>
+
+</items>

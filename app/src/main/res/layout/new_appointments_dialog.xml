@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- layout title -->
+
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title_new_appointments_dialog"
+            style="@style/DialogSubHeader_Text" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1">
+        -
+
+        <LinearLayout
+            android:id="@+id/new_appointmentslistview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+            <ListView
+                android:id="@+id/new_appointmentslistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:divider="@color/lightgray"
+                android:dividerHeight="1dp">>
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hide_show_message_layout_new_appointments_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/message_title_txv_new_appointments_dialog"
+            style="@style/CustomTextview"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:text="Do you want to book at 11.00-12.00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message_txv_new_appointments_dialog"
+            style="@style/CustomTextview"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+
+            android:text="Bhuvana" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/cancel_btn_new_appointments_dialog"
+            style="@style/DialogDownButtons_2"
+            android:layout_toLeftOf="@+id/view_divider"
+            android:text="@string/cancel" />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/confirm_btn_new_appointments_dialog"
+            style="@style/DialogDownButtons"
+            android:layout_toRightOf="@+id/view_divider"
+            android:text="@string/confirm" />
+
+        <Button
+            android:id="@+id/create_as_new_btn_new_appointments_dialog"
+            style="@style/DialogDownButtons_3"
+            android:layout_width="match_parent"
+            android:layout_alignLeft="@+id/cancel_btn_new_appointments_dialog"
+            android:layout_alignRight="@+id/confirm_btn_new_appointments_dialog"
+            android:layout_below="@id/cancel_btn_new_appointments_dialog"
+            android:layout_marginTop="10dp"
+            android:text="@string/create_as_new" />
+    </RelativeLayout>
+
+</LinearLayout>

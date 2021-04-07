@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- layout title -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mobile_txv_appointments_dialog"
+                    style="@style/CustomTextview"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:text="Consultation Type"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtinput"
+                    style="@style/DialogEdittext"
+                    android:layout_alignBaseline="@id/mobile_txv_appointments_dialog"
+                    android:layout_alignParentRight="@id/mobile_txv_appointments_dialog"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@+id/mobile_txv_appointments_dialog"
+                    android:hint="Enter mobile # here" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/name_txv_appointments_dialog"
+                    style="@style/CustomTextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/mobile_txv_appointments_dialog"
+                    android:layout_below="@id/mobile_txv_appointments_dialog"
+                    android:layout_marginLeft="20dp"
+                    android:padding="5dp"
+                    android:text="Consultation Amt"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtinput1"
+                    style="@style/DialogEdittext"
+                    android:layout_alignBaseline="@+id/name_txv_appointments_dialog"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@+id/name_txv_appointments_dialog"
+                    android:ems="10"
+                    android:hint="Enter name here"
+                    android:inputType="number" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/back_btn_appointments_dialog"
+                    style="@style/DialogDownButtons2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="BACK" />
+
+
+                <Button
+                    android:id="@+id/btdone"
+                    style="@style/DialogDownButtons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="CONFIRM" />
+
+
+                <Button
+                    android:id="@+id/delete"
+                    style="@style/CustomDownButtons3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="DELETE" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

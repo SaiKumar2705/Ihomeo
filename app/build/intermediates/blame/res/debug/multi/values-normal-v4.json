@@ -1,0 +1,482 @@
+[
+    {
+        "outputFile": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-normal-v4\\values-normal-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 6,
+                        "startOffset": 682,
+                        "endColumn": 57,
+                        "endOffset": 733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 111,
+                    "endColumn": 56,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 6,
+                        "startOffset": 805,
+                        "endColumn": 58,
+                        "endOffset": 857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 46,
+                    "endOffset": 210
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 215,
+                    "endColumn": 60,
+                    "endOffset": 271
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 6,
+                        "startOffset": 865,
+                        "endColumn": 62,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 276,
+                    "endColumn": 60,
+                    "endOffset": 332
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 6,
+                        "startOffset": 741,
+                        "endColumn": 62,
+                        "endOffset": 797
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 337,
+                    "endColumn": 53,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 6,
+                        "startOffset": 985,
+                        "endColumn": 55,
+                        "endOffset": 1034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 52,
+                    "endOffset": 439
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 6,
+                        "startOffset": 929,
+                        "endColumn": 54,
+                        "endOffset": 977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 444,
+                    "endColumn": 56,
+                    "endOffset": 496
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 2,
+                        "startOffset": 1422,
+                        "endColumn": 54,
+                        "endOffset": 1474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 501,
+                    "endColumn": 55,
+                    "endOffset": 552
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1480,
+                        "endColumn": 55,
+                        "endOffset": 1531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 557,
+                    "endColumn": 59,
+                    "endOffset": 612
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 6,
+                        "startOffset": 1174,
+                        "endColumn": 61,
+                        "endOffset": 1229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 617,
+                    "endColumn": 66,
+                    "endOffset": 679
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 2,
+                        "startOffset": 1291,
+                        "endColumn": 64,
+                        "endOffset": 1353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 684,
+                    "endColumn": 58,
+                    "endOffset": 738
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 2,
+                        "startOffset": 1233,
+                        "endColumn": 56,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 743,
+                    "endColumn": 65,
+                    "endOffset": 804
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 2,
+                        "startOffset": 1357,
+                        "endColumn": 63,
+                        "endOffset": 1418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 809,
+                    "endColumn": 64,
+                    "endOffset": 869
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 6,
+                        "startOffset": 1106,
+                        "endColumn": 66,
+                        "endOffset": 1166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 874,
+                    "endColumn": 49,
+                    "endOffset": 919
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 5,
+                        "startOffset": 158,
+                        "endColumn": 50,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 924,
+                    "endColumn": 49,
+                    "endOffset": 969
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 5,
+                        "startOffset": 106,
+                        "endColumn": 50,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 974,
+                    "endColumn": 60,
+                    "endOffset": 1030
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 6,
+                        "startOffset": 1042,
+                        "endColumn": 62,
+                        "endOffset": 1098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1035,
+                    "endColumn": 56,
+                    "endOffset": 1087
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 5,
+                        "startOffset": 210,
+                        "endColumn": 57,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1092,
+                    "endColumn": 59,
+                    "endOffset": 1147
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 5,
+                        "startOffset": 339,
+                        "endColumn": 60,
+                        "endOffset": 394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1152,
+                    "endColumn": 67,
+                    "endOffset": 1215
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 5,
+                        "startOffset": 269,
+                        "endColumn": 68,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1220,
+                    "endColumn": 58,
+                    "endOffset": 1274
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 2,
+                        "startOffset": 567,
+                        "endColumn": 56,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1279,
+                    "endColumn": 55,
+                    "endOffset": 1330
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 5,
+                        "startOffset": 401,
+                        "endColumn": 56,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1335,
+                    "endColumn": 56,
+                    "endOffset": 1387
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 2,
+                        "startOffset": 456,
+                        "endColumn": 54,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1392,
+                    "endColumn": 55,
+                    "endOffset": 1443
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 2,
+                        "startOffset": 512,
+                        "endColumn": 53,
+                        "endOffset": 563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1448,
+                    "endColumn": 49,
+                    "endOffset": 1493
+                },
+                "from": {
+                    "file": "D:\\Validus Projects\\IHD_20March)_WorkingFine Along with Notification\\app\\src\\main\\res\\values-normal\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 6,
+                        "startOffset": 629,
+                        "endColumn": 51,
+                        "endOffset": 674
+                    }
+                }
+            }
+        ]
+    }
+]

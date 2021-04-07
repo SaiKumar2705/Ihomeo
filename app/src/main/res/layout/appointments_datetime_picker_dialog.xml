@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/date_picker_appointments_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:calendarViewShown="false"
+        android:spinnersShown="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/cancel_btn_datepicker_appointments_dialog"
+            style="@style/DialogDownButtons"
+            android:layout_toLeftOf="@+id/view_divider"
+            android:text="@string/cancel" />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/set_btn_dialog_received_material"
+            style="@style/DialogDownButtons"
+            android:layout_toRightOf="@+id/view_divider"
+            android:text="@string/set" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="all_medium_text">10dp</dimen>
+    <dimen name="down_button_width">120dp</dimen>
+    <dimen name="down_button_height">35dp</dimen>
+    <dimen name="listview_headers_textview">8dp</dimen>
+    <dimen name="listview_normal_row_textview_padding">10dp</dimen>
+    <dimen name="listview_normal_row_textview">8dp</dimen>
+    <dimen name="listview_row_left_padding">3dp</dimen>
+	 <dimen name="listview_row_right_padding">3dp</dimen>
+	 <dimen name="listview_row_top_padding">4dp</dimen>
+	 <dimen name="listview_row_bottom_padding">5dp</dimen>
+    <dimen name="overflow_menu_text">10dp</dimen>
+    <dimen name="actionbar_title_textview">10dp</dimen>
+    <dimen name="all_top_main_headers_textview">15dp</dimen>
+    <dimen name="all_date_headers_textview">13dp</dimen>
+    <dimen name="all_sub_main_headers_textview">10dp</dimen>
+    <dimen name="book_txv_layout_width">60dp</dimen>
+    <dimen name="book_txv_layout_height">18dp</dimen>
+    <dimen name="listview_book_row_marign_right">3dp</dimen>
+    <dimen name="dialog_title_header_layout_height">45dp</dimen>
+    <dimen name="dialog_main_headers_textview">17dp</dimen>
+ 	<dimen name="dialog_sub_headers_textview">15dp</dimen>
+ 	<dimen name="dialog_main_headers_textview_padding">3dp</dimen>
+ 	<dimen name="dialog_sub_headers_textview_padding">3dp</dimen>
+ 	<dimen name="dialog_down_button_height">35dp</dimen>
+    <dimen name="dialog_down_button_width">90dp</dimen>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "475498059178",
+    "firebase_url": "https://ihomeo-8cc06.firebaseio.com",
+    "project_id": "ihomeo-8cc06",
+    "storage_bucket": "ihomeo-8cc06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475498059178:android:ade3e544032dadba",
+        "android_client_info": {
+          "package_name": "com.ihomeo.ihomeouploading.ihomeoactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475498059178-ekaeagc4up6bmve97qc7islqg1h9nsp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmbvcr4uXnk1jDAwokrs4I7AMfQOhoDAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

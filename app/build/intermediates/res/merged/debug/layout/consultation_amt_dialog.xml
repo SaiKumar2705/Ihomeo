@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    - <!--  layout title
+  -->
+
+
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_consultation_amt_dialog"
+            style="@style/DialogSubHeader_Text"
+            android:text="Type" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/consultation_amt_typelistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:divider="@color/lightgray"
+            android:dividerHeight="1dp" />
+    </RelativeLayout>
+    -
+
+    <LinearLayout
+        android:id="@+id/others1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <View
+            android:id="@+id/view_divider1"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/others12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/e_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_marginBottom="45dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/cancel_btn_consultation_amt_dialog"
+            style="@style/DialogDownButtons_2"
+            android:layout_toLeftOf="@+id/view_divider"
+            android:text="@string/cancel" />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/confirm_btn_consultation_amt_dialog"
+            style="@style/DialogDownButtons"
+            android:layout_toRightOf="@+id/view_divider"
+            android:text="@string/confirm" />
+    </RelativeLayout>
+</LinearLayout>

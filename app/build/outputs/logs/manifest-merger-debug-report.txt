@@ -1,0 +1,432 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:2:1-137:12
+	package
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:3:5-56
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.aakira:expandable-layout:1.4.2] C:\Users\Sai kumar\.android\build-cache\ddf9d590e20aa8e5c03c43c7427740f51aae7446\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:23.2.1] C:\Users\Sai kumar\.android\build-cache\bd3295da0b2f23a6000291086d01762905d42fd6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Sai kumar\.android\build-cache\2ac31ecbe00fc6f42175a17d2044420b3b104273\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Sai kumar\.android\build-cache\7216815d6749d352edb4934521830b12a357f640\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Sai kumar\.android\build-cache\68a8613c22d6f9eaa4a60d917602f41ffe116846\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] C:\Users\Sai kumar\.android\build-cache\0c11c4bfd5d564897c982f0d497095977be0b2c0\output\AndroidManifest.xml:20:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Sai kumar\.android\build-cache\fd0977be3d896fdf2d505ac96fc038da95e322df\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Sai kumar\.android\build-cache\191096497bae04d63f755086f21c3a0dd1790964\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Sai kumar\.android\build-cache\2ca4b3b6f8d5c8f66f0f992eda870d435c124812\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Sai kumar\.android\build-cache\23b9a39010db0e1ccefbbcec0e55abd8871ed321\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Sai kumar\.android\build-cache\17fb29b31fa3ff55e8a29f5413c16508ba48198a\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Sai kumar\.android\build-cache\2ac31ecbe00fc6f42175a17d2044420b3b104273\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CAMERA
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:16:5-65
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:16:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:18:5-60
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:18:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:19:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:22:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:23:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:24:22-77
+supports-screens
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:26:5-31:40
+	android:largeScreens
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:28:9-36
+	android:smallScreens
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:30:9-36
+	android:normalScreens
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:29:9-37
+	android:xlargeScreens
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:31:9-37
+	android:anyDensity
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:27:9-34
+application
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:33:5-136:19
+MERGED from [com.github.aakira:expandable-layout:1.4.2] C:\Users\Sai kumar\.android\build-cache\ddf9d590e20aa8e5c03c43c7427740f51aae7446\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:23.2.1] C:\Users\Sai kumar\.android\build-cache\bd3295da0b2f23a6000291086d01762905d42fd6\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\Sai kumar\.android\build-cache\2ac31ecbe00fc6f42175a17d2044420b3b104273\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\Sai kumar\.android\build-cache\7216815d6749d352edb4934521830b12a357f640\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] C:\Users\Sai kumar\.android\build-cache\68a8613c22d6f9eaa4a60d917602f41ffe116846\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-appindexing:9.2.1] C:\Users\Sai kumar\.android\build-cache\fd0977be3d896fdf2d505ac96fc038da95e322df\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-core:9.2.1] C:\Users\Sai kumar\.android\build-cache\191096497bae04d63f755086f21c3a0dd1790964\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] C:\Users\Sai kumar\.android\build-cache\2ca4b3b6f8d5c8f66f0f992eda870d435c124812\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Sai kumar\.android\build-cache\23b9a39010db0e1ccefbbcec0e55abd8871ed321\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.1] C:\Users\Sai kumar\.android\build-cache\17fb29b31fa3ff55e8a29f5413c16508ba48198a\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:36:9-41
+	android:allowBackup
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:34:9-35
+	android:icon
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:35:9-45
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:37:9-40
+activity#com.ihomeo.ihomeouploading.ihomeoactivity.MainActivity
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:39:9-49:20
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:42:13-45
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:40:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:47:27-74
+service#com.ihomeo.ihomeouploading.ihomeoactivity.MyFirebaseInstanceIdService
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:51:9-59:19
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:51:18-61
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:53:13-57:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:56:17-87
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:56:25-77
+service#com.ihomeo.ihomeouploading.ihomeoactivity.MyFirebaseMessagingService
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:61:9-68:19
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:61:18-60
+intent-filter#com.google.firebase.MESSAGE_EVENT
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:63:13-66:29
+action#com.google.firebase.MESSAGE_EVENT
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:65:17-83
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:65:25-73
+activity#com.ihomeo.ihomeouploading.ihomeoactivity.DoctorsName_List
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:69:9-73:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:72:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:71:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:70:13-45
+activity#com.ihomeo.ihomeouploading.ihomeoactivity.PayClick
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:76:9-80:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:79:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:78:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:77:13-37
+activity#com.ihomeo.ihomeouploading.ihomeoactivity.Appointments
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:81:9-85:60
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:84:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:83:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:85:13-57
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:82:13-41
+activity#com.ihomeo.ihomeouploading.dashboard.Dashboard_DoctorsList
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:87:9-91:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:90:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:89:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:91:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:88:13-86
+activity#com.ihomeo.ihomeouploading.Report.Patient_Attendance
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:92:9-96:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:95:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:94:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:96:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:93:13-80
+activity#com.ihomeo.ihomeouploading.Report.RevenueByCategory
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:97:9-102:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:101:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:100:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:102:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:98:13-79
+activity#com.ihomeo.ihomeouploading.Settings.Settings
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:103:9-107:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:106:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:105:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:107:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:104:13-72
+activity#com.ihomeo.ihomeouploading.Settings.Feesettings
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:108:9-112:60
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:111:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:110:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:112:13-57
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:109:13-75
+activity#com.ihomeo.ihomeouploading.Settings.AddFee
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:113:9-117:60
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:116:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:115:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:117:13-57
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:114:13-70
+activity#com.ihomeo.ihomeouploading.Settings.Scheduling
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:119:9-123:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:122:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:121:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:120:13-74
+activity#com.ihomeo.ihomeouploading.Settings.Scheduling2
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:125:9-129:59
+	android:screenOrientation
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:128:13-49
+	android:configChanges
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:127:13-48
+	android:theme
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:129:13-56
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:126:13-75
+meta-data#com.google.android.gms.version
+ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:131:9-133:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] C:\Users\Sai kumar\.android\build-cache\23b9a39010db0e1ccefbbcec0e55abd8871ed321\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:133:13-66
+	android:name
+		ADDED from D:\Validus Projects\IHD_20March)_WorkingFine Along with Notification\app\src\main\AndroidManifest.xml:132:13-58
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:27:22-85
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:30:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:33:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.3] C:\Users\Sai kumar\.android\build-cache\b4365b1e976a6746bcde25185deea566e3b6b707\output\AndroidManifest.xml:33:22-80
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.2.1] C:\Users\Sai kumar\.android\build-cache\8c162df6a9b6f3801603a14a300555fbc82a66a4\output\AndroidManifest.xml:28:25-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] C:\Users\Sai kumar\.android\build-cache\c9607fbafcddabcec2f499919cb428560eefc27d\output\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] C:\Users\Sai kumar\.android\build-cache\ecec3ac00598f36acd7132af8571a68166d753b3\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] C:\Users\Sai kumar\.android\build-cache\ba2249a94cbf4c395329e02514fb721a32d9686c\output\AndroidManifest.xml:37:11-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] C:\Users\Sai kumar\.android\build-cache\b3602b73e22b6eeccf8c79157e70fc399ba171cc\output\AndroidManifest.xml:52:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.1] C:\Users\Sai kumar\.android\build-cache\75239eebb7de50c0ed284a5531e5c47209d379af\output\AndroidManifest.xml:9:13-58

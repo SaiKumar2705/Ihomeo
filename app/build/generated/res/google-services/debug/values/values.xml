@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1045559570417-blpobbucft831hctm7dvr5kqfrpr5oa3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ihomeo-e522b.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1045559570417</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0dkzJAX2OMm4TMQKIdOCwt8g7sMT4R0M</string>
+    <string name="google_app_id" translatable="false">1:1045559570417:android:ade3e544032dadba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0dkzJAX2OMm4TMQKIdOCwt8g7sMT4R0M</string>
+    <string name="google_storage_bucket" translatable="false">ihomeo-e522b.appspot.com</string>
+</resources>

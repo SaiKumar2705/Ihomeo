@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time_title_appointments_dialog"
+
+            style="@style/DialogMainHeader_Text"
+            android:text="10.30-11.30" />
+
+        <TextView
+            android:id="@+id/date_title_appointments_dialog"
+            style="@style/DialogSubHeader_Text"
+            android:text="Wed" />
+
+        <View style="@style/DialogView" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/mobile_edt_appointments_dialog"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+            <requestFocus />
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/name_edt_appointments_dialog"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/mrnumber1"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/dia_id"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+            <requestFocus />
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/cons_id"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+            <requestFocus />
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/mrnumber"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="gone">
+
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/age"
+                style="@style/CustomEdittext"
+                android:layout_width="85dp"
+                android:hint="Age"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+
+                <requestFocus />
+            </EditText>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Gender"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:text="M"
+
+                android:textStyle="bold" />
+
+
+            <Switch
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/gender_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textOff="M"
+                android:textOn="F" />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:text="F"
+                android:textStyle="bold" />z
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/diagnosis_Types"
+                style="@style/CustomEdittext"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:focusableInTouchMode="false"
+                android:hint="Diagnosis Types   "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/calender"
+            style="@style/CustomEdittext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:focusableInTouchMode="false"
+            android:hint="Review Date"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/cons_fee"
+                style="@style/CustomEdittext"
+                android:layout_width="135dp"
+                android:focusableInTouchMode="false"
+                android:hint="Cons. Fee"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+
+                <requestFocus />
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/pcharge"
+                style="@style/CustomEdittext"
+                android:layout_width="match_parent"
+                android:hint="Phar. Chgs."
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+
+                <requestFocus />
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/sk"
+                style="@style/CustomEdittext"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:hint="Diagnosis Types   "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="gone">
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/cancel_btn_payment_dialog"
+            style="@style/DialogDownButtons_5"
+            android:layout_toLeftOf="@+id/view_divider"
+            android:text="@string/cancel" />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="20dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/confirm_btn_payment_dialog"
+            style="@style/DialogDownButtons"
+            android:layout_toRightOf="@+id/view_divider"
+            android:text="@string/confirm" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
